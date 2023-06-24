@@ -25,9 +25,11 @@ public class AnvilUserTextInput extends Element {
         return "Anvil User Text Input";
     }
 
+
     public String getInternalName() {
         return "anvil-user-input-text";
     }
+
 
     public boolean isHidingIfNotCompatible() {
         return false;
@@ -50,7 +52,6 @@ public class AnvilUserTextInput extends Element {
                 new Argument("title", "Title (1.14+)", DataType.STRING, elementInfo),
                 new Argument("text", "Text", DataType.STRING, elementInfo),
                 new Argument("item-left", "Item Left", DataType.ITEM, elementInfo),
-
         };
     }
 
@@ -85,8 +86,9 @@ public class AnvilUserTextInput extends Element {
 
             public XMaterial getIcon() {
                 return XMaterial.RED_STAINED_GLASS_PANE;
+                }
             }
-        } };
+        };
     }
 
     @Override
