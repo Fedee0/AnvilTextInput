@@ -25,11 +25,9 @@ public class AnvilUserTextInput extends Element {
         return "Anvil User Text Input";
     }
 
-
     public String getInternalName() {
         return "anvil-user-input-text";
     }
-
 
     public boolean isHidingIfNotCompatible() {
         return false;
@@ -54,7 +52,6 @@ public class AnvilUserTextInput extends Element {
                 new Argument("item-left", "Item Left", DataType.ITEM, elementInfo),
         };
     }
-
 
     public OutcomingVariable[] getOutcomingVariables(ElementInfo elementInfo) {
         return new OutcomingVariable[] {
