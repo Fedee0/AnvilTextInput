@@ -92,9 +92,8 @@
         <dependency>
             <groupId>me.TechsCode</groupId>
             <artifactId>UltraCustomizerAPI</artifactId>
-            <scope>system</scope>
             <version>1.0.0</version>
-            <systemPath>C:/Users/Federico/Desktop/UltraCustomizer.jar</systemPath>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>net.wesjd</groupId>
